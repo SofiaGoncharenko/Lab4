@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6AD757B1-B407-4DD2-B907-B3FE1AF0AA8A}</ProjectGuid>
+    <ProjectGuid>{35D36B92-CF2C-4B1B-9642-1D4D6E719516}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>z3</RootNamespace>
-    <AssemblyName>z3</AssemblyName>
+    <RootNamespace>z4</RootNamespace>
+    <AssemblyName>z4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Air.cs" />
-    <Compile Include="Rocket.cs" />
-    <Compile Include="Ship.cs" />
+    <Compile Include="ComparePrice.cs" />
+    <Compile Include="CompareManufacturer.cs" />
+    <Compile Include="CompareName.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sklad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
